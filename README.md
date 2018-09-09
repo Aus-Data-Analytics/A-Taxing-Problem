@@ -19,8 +19,18 @@ The adjusted scores were used to train a deep neural network to predict the requ
 
 ## Examples
 
+### Number of centres per state vs suggested numbers
+![State level breakdown](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/state_total_changes.png)
+
+### Sydney Comparison
+![Comparison of Sydney's locations vs suggested locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/sydney_joint.png)
+Red / orange: Less locations; Blue: More locations; Grey: Unchanged number of locations
+
 ### Adelaide with current tax help centre locations
 ![Adelaide original locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/adelaide_original.png)
 
 ### Adelaide with suggested tax help centre locations
 ![Adelaide suggested locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/adelaide_suggested.png)
+
+### Adelaide Comparison
+![Comparison of Adelaide's locations vs suggested locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/adelaide_joint.png)
