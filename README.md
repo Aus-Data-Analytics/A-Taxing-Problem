@@ -14,3 +14,13 @@ We utilised this opportunity to merge data from a variety of sources, namely:
 
 Given that the current distribution of Tax Help Centers is not necessarily optimal, the merged data was used to calculate an adjusted score for each postcode's requirement for tax assistance based upon the ATO eligibility criteria.
 The adjusted scores were used to train a deep neural network to predict the required number of Tax Help Centers in a postcode.
+
+The adjusted scores were used to train a deep neural network to predict the required number of Tax Help Centers in a postcode, which after using cross-folds validation to verify the accuracy of the model, achieved a score of 96%
+
+## Examples
+
+### Adelaide with current tax help centre locations
+![Adelaide original locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/adelaide_original.png)
+
+### Adelaide with suggested tax help centre locations
+![Adelaide suggested locations](https://raw.githubusercontent.com/Aus-Data-Analytics/A-Taxing-Problem/master/content/images/adelaide_suggested.png)
